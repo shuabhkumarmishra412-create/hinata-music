@@ -26,10 +26,10 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(time_to_seconds(f"{SONG_DOWNLOAD_DURATION}:00"))
 
 # ✅ Owner & Bot Identity
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002739133823"))
-OWNER_ID = int(getenv("OWNER_ID", "7682307978"))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@Oyekanhaa") 
-BOT_USERNAME = getenv("BOT_USERNAME", "@Vcznbot")
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003774441740"))
+OWNER_ID = int(getenv("OWNER_ID", "8441236350"))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_YOUR_MADARA_DEFAULTER_II") 
+BOT_USERNAME = getenv("BOT_USERNAME", "@gsiugeirbcodbsk_bot")
 
 # ✅ Command Handler
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
@@ -44,11 +44,11 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "")  # Only for private repo
 
 # ✅ Support Links
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_kanhaa")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kanhaxduniya")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+Imyf3M9TO5k1ODRl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+dv_rcq5uIXhmMWM1")
 
 
-PLAYLIST_ID = "-1003474962530"
+PLAYLIST_ID = "-1003774441740"
 
 
 
