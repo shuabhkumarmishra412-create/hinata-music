@@ -38,7 +38,9 @@ EFFECT_ID = [
 
 # 🌄 Random Start Images
 Kanha = [
-    "https://files.catbox.moe/59mdmh.jpg",
+    "https://i.ibb.co/g5q6xWH/image.jpg",
+    "https://i.ibb.co/JwRfrCh5/image.jpg",
+    "https://i.ibb.co/chvrnyZL/image.jpg"
 ]
 
 # 🍓 Random Reactions — strawberry + 4 extras, changes every start
