@@ -26,10 +26,10 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(time_to_seconds(f"{SONG_DOWNLOAD_DURATION}:00"))
 
 # ✅ Owner & Bot Identity
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003917351248"))
-OWNER_ID = int(getenv("OWNER_ID", "8725331299"))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@II_II_LIGHT_DEFULTERS_II_IIll") 
-BOT_USERNAME = getenv("BOT_USERNAME", "Hinnatamusicbot")
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "") 
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 
 # ✅ Command Handler
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
@@ -44,8 +44,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "")  # Only for private repo
 
 # ✅ Support Links
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+Imyf3M9TO5k1ODRl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+dv_rcq5uIXhmMWM1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+1NRRqUd1replNTM1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 
 
 PLAYLIST_ID = "-1003774441740"
@@ -87,18 +87,18 @@ userstats = {}
 clean = []
 
 # ✅ UI Images
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/59mdmh.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/93owo8.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ef80q0.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ef80q0.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ef80q0.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/chvrnyZL/image.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/chvrnyZL/image.jpg)
+PLAYLIST_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+STATS_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/hJ3DmZLW/image.jpg"
 
 # ✅ URL Validation
 if SUPPORT_CHANNEL and not re.match(r"(?:http|https)://", SUPPORT_CHANNEL):
